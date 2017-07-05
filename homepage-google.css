@@ -1,0 +1,52 @@
+body {font-family: "Arial" serif;
+		font-size: 13px;
+		margin: 0;
+	}
+
+.lien-haut-droite {float: right;
+					
+					word-spacing: 20px}
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+
+
+.barre-du-bas-droite {float: right;
+					  word-spacing: 20px;
+					  position: absolute;
+					  display: block;
+					  right: 5px;
+					  bottom: 5px;
+					  }
+
+.barre-du-bas-gauche {float: left;
+					  word-spacing: 20px;
+					  position: absolute;
+					  display: block;
+					  left: 5px;
+					  bottom: 5px;
+}
+
+div.boutons-recherche {position: absolute;
+					left: 42%;
+					margin-top: 450px;
+					}
+
+
+
+img.logo-Google {height: 10%;
+			 		width: 30%;
+			 		display: block;
+			 		position: absolute;
+			 		margin-top: 300px;
+			 		left: 37%;
+
+		 	}
+
+.barre-nav {position: absolute;
+	margin-top: 420px;
+					left: 45%;
+				}
+
