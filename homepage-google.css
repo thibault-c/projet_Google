@@ -25,8 +25,21 @@ a {
 	color: #818078;
 }
 
-a.searchbutton {
+#middle {
+	visibility: hidden;
+}
+
+
+.searchbutton {
 	font-weight: 900;
+}
+
+.RG {
+	padding-bottom: 15px;
+}
+
+.chance {
+	padding-bottom: 15px;
 }
 
 .top {
@@ -50,6 +63,31 @@ div.gmail, div.images, div.app, div.g+, div.user {
 	margin-top: 20%;
 	
 }
+
+.genral {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+
+}
+
+.searchbar {
+	position:fixed; 
+	left: 32%;
+	bottom: 65%;
+
+}
+
+.formulaire               {display:inline-block;}
+.formulaire .champ       {width:600px; height:35px;}
 
 .RG {
 	height: 100%;
@@ -90,4 +128,8 @@ div.gmail, div.images, div.app, div.g+, div.user {
 	float: right;
 	padding-left: 10px;
 
+}
+
+#button{
+	visibility: visible;
 }
